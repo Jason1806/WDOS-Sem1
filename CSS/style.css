@@ -327,32 +327,25 @@ th, td {
     border-radius: 4px;
 }
 
-/* Android-like button */
-.reservations-button {
+
+/* Style for the button */
+.reservations-button{
     background-color: #2196F3; /* Blue button color */
     color: #ffffff; /* White text */
-    border: none;
+    border: none; /* Remove borders */
     border-radius: 4px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    
 }
+
+
 
 .reservations-button:hover {
     background-color: #1976D2; /* Darker blue color on hover */
 }
 
-/* Android-like Contact Us option */
-.reservations-contact-us {
-    text-align: center;
-    color: #2196F3; /* Blue text color */
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.reservations-contact-us:hover {
-    text-decoration: underline;
-}
 
 /* Android-like info boxes */
 .reservations-info-box {
